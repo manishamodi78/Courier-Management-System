@@ -1,0 +1,75 @@
+/* .shipments-container { max-width:1200px; margin:0 auto; padding:40px 20px; background:#f8fafc; font-family:inherit; min-height:100vh; }
+.shipments-header { margin-bottom:25px; }
+.back-btn { border:none; background:none; color:#3b82f6; font-weight:700; cursor:pointer; display:flex; align-items:center; gap:6px; margin-bottom:10px;}
+.shipments-header h1 { font-size:28px; font-weight:800; color:#1e293b; }
+.count-badge { background:#3b82f6; color:#fff; padding:4px 10px; border-radius:15px; font-size:12px; margin-left:10px; }
+.shipments-header p { color:#64748b; font-size:14px; margin:5px 0 0; }
+
+.filters { display:flex; justify-content:space-between; margin-bottom:20px; gap:10px; }
+.search-box { display:flex; align-items:center; gap:8px; background:#f1f5f9; padding:6px 12px; border-radius:8px; flex:1; }
+.search-box input { border:none; outline:none; background:none; width:100%; font-size:14px; }
+
+.filter-dropdowns { display:flex; gap:10px; }
+.select-container { display:flex; align-items:center; gap:6px; border:1px solid #e2e8f0; padding:0 8px; border-radius:8px; }
+select { border:none; outline:none; padding:6px 0; background:transparent; font-weight:600; cursor:pointer; }
+
+.table-wrapper { background:#fff; border-radius:12px; overflow:hidden; border:1px solid #e2e8f0; }
+table { width:100%; border-collapse:collapse; }
+th, td { padding:14px 18px; text-align:left; }
+th { font-weight:700; font-size:12px; color:#64748b; text-transform:uppercase; background:#f1f5f9; }
+td { font-size:14px; color:#334155; vertical-align:middle; }
+tr:not(:last-child) { border-bottom:1px solid #f1f5f9; }
+.tracking { background:#eff6ff; padding:4px 8px; border-radius:6px; font-weight:700; color:#1e40af; display:inline-block; font-size:13px; }
+.customer-info strong { display:block; font-weight:600; color:#1e293b; }
+.customer-info div { font-size:12px; color:#64748b; }
+.staff-badge { display:flex; align-items:center; gap:4px; color:#334155; font-weight:600; }
+.unassigned { color:#ef4444; font-size:12px; font-weight:600; }
+.date { display:flex; align-items:center; gap:4px; font-size:13px; color:#94a3b8; }
+.actions { display:flex; gap:6px; justify-content:flex-end; }
+.actions select { padding:4px 6px; border-radius:6px; border:1px solid #cbd5e1; font-size:12px; }
+.btn-delivered { background:#dcfce7; color:#16a34a; border:none; padding:6px 8px; border-radius:6px; cursor:pointer; }
+.btn-delete { background:#fee2e2; color:#dc2626; border:none; padding:6px 8px; border-radius:6px; cursor:pointer; }
+.status-badge { padding:4px 10px; border-radius:20px; font-size:12px; font-weight:700; text-transform:uppercase; }
+
+.pagination { display:flex; justify-content:center; gap:6px; margin-top:20px; }
+.pagination button { padding:6px 12px; border:1px solid #e2e8f0; border-radius:6px; background:#fff; cursor:pointer; font-weight:600; }
+.pagination button.active { background:#3b82f6; color:#fff; border-color:#3b82f6; }
+.no-data { text-align:center; padding:30px; color:#94a3b8; } */
+
+
+
+
+
+
+
+
+
+
+.shipments-container { max-width: 1200px; margin: 40px auto; font-family: "Poppins", sans-serif; }
+.shipments-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 30px; }
+.back-btn { background: #3b82f6; color: white; border: none; padding: 6px 12px; border-radius: 6px; display: flex; align-items: center; gap: 6px; cursor: pointer; font-weight: 600; }
+.badge { background: #eff6ff; padding: 4px 10px; border-radius: 12px; font-weight: 700; color: #1e40af; }
+
+.filters { display: flex; justify-content: space-between; margin-bottom: 20px; gap: 10px; }
+.search-box { display: flex; align-items: center; gap: 8px; background: #f1f5f9; padding: 6px 12px; border-radius: 8px; flex: 1; }
+.search-box input { border: none; outline: none; background: none; width: 100%; font-size: 14px; }
+.dropdowns select { margin-left: 8px; padding: 6px 10px; border-radius: 6px; border: 1px solid #cbd5e1; cursor: pointer; font-weight: 500; }
+
+.table-wrapper { overflow-x: auto; border-radius: 12px; border: 1px solid #e2e8f0; }
+table { width: 100%; border-collapse: collapse; }
+thead { background: #f8fafc; }
+th, td { padding: 12px 16px; text-align: left; }
+th { font-size: 12px; font-weight: 700; color: #64748b; text-transform: uppercase; }
+tr { border-bottom: 1px solid #f1f5f9; }
+tr:hover { background: #f1f5f9; }
+.tracking { background: #eff6ff; padding: 4px 8px; border-radius: 6px; font-weight: 700; color: #1e40af; }
+.staff { display: flex; align-items: center; gap: 4px; font-weight: 600; }
+.unassigned { color: #ef4444; font-weight: 600; }
+.status-badge { padding: 4px 12px; border-radius: 20px; font-weight: 700; font-size: 12px; text-transform: uppercase; }
+.actions { display: flex; gap: 6px; }
+.delivered-btn { background: #dcfce7; color: #16a34a; border: none; border-radius: 6px; padding: 6px; cursor: pointer; }
+.delete-btn { background: #fee2e2; color: #dc2626; border: none; border-radius: 6px; padding: 6px; cursor: pointer; }
+.pagination { display: flex; justify-content: center; margin-top: 20px; gap: 6px; }
+.pagination button { padding: 6px 12px; border-radius: 6px; border: 1px solid #cbd5e1; background: #fff; cursor: pointer; font-weight: 600; }
+.pagination button.active { background: #3b82f6; color: #fff; border-color: #3b82f6; }
+.no-data { text-align: center; padding: 30px; color: #94a3b8; font-weight: 500; }
